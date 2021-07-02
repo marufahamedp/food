@@ -1,29 +1,27 @@
-@import url(/css/utilitis.css);
-
 /* fonts */
 @font-face {
     font-family: "Releway-regular";
-    src: url(../fonts/Raleway-Regular.ttf);
+    src: url(fonts/Raleway-Regular.ttf);
 }
 @font-face {
     font-family: "Releway-medium";
-    src: url(../fonts/Raleway-Medium.ttf);
+    src: url(fonts/Raleway-Medium.ttf);
 }
 @font-face {
     font-family: "Releway-bold";
-    src: url(../fonts/Raleway-Bold.ttf);
+    src: url(fonts/Raleway-Bold.ttf);
 }
 @font-face {
     font-family: "Releway-semibold";
-    src: url(../fonts/Raleway-SemiBold.ttf);
+    src: url(fonts/Raleway-SemiBold.ttf);
 }
 @font-face {
     font-family: "Releway-black";
-    src: url(../fonts/Raleway-Black.ttf);
+    src: url(fonts/Raleway-Black.ttf);
 }
 @font-face {
     font-family: "Relewayextrabold";
-    src: url(../fonts/Raleway-ExtraBold.ttf);
+    src: url(fonts/Raleway-ExtraBold.ttf);
 }
 /* colors */
 :root{
@@ -90,6 +88,7 @@ header.topbar .auth > div a{
 }
 header.topbar .auth > div img{
     margin-right: 0.3rem;
+    
 }
 header.topbar .auth .devider{
     padding: 0 1rem;
