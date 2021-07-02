@@ -1,0 +1,69 @@
+/* fonts */
+@font-face {
+    font-family: "Releway-regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "Releway-medium";
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: "Releway-bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Releway-semibold";
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Releway-black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+@font-face {
+    font-family: "Relewayextrabold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+/* colors */
+:root{
+    --primary:#EEBF00;
+    --secondary:#232B38;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#2D333F;
+}
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+}
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
